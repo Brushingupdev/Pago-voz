@@ -202,8 +202,8 @@
             padding: 0;
             transform: translateX(100%);
             transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            box-shadow: -16px 0 48px rgba(0, 0, 0, 0.6);
-            border-left: 1px solid rgba(166, 109, 232, 0.15);
+            box-shadow: none;
+            border-left: none;
             overflow: hidden;
         }
 
@@ -234,6 +234,8 @@
 
         .m-menu.open {
             transform: translateX(0);
+            box-shadow: -16px 0 48px rgba(0, 0, 0, 0.6);
+            border-left: 1px solid rgba(166, 109, 232, 0.15);
         }
 
         /* Mobile menu brand header */
